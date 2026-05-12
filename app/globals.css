@@ -8,6 +8,7 @@
   --muted: #5f5f67;
   --surface: #ffffff;
   --border: #d7d7d2;
+  --nav-bg: rgba(255, 255, 255, 0.72);
 }
 
 :root[data-theme="dark"] {
@@ -16,6 +17,7 @@
   --muted: #9494a4;
   --surface: #121318;
   --border: #2d2f39;
+  --nav-bg: rgba(16, 17, 22, 0.66);
 }
 
 * {

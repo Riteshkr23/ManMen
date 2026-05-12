@@ -7,13 +7,12 @@ import { useHomeAnimations } from "@/hooks/use-home-animations";
 import { useSplitHeadline } from "@/hooks/use-split-headline";
 import { products } from "@/lib/products";
 import { ProductCard } from "@/components/product-card";
-
-const cinematicLines = ["crafted motion", "soulful textures", "engineered precision", "urban mythology"];
 gsap.registerPlugin(ScrollToPlugin);
 
 export function HomeExperience() {
   useHomeAnimations();
   useSplitHeadline(".hero-title");
+  const cinematicLines = ["crafted motion", "soulful textures", "engineered precision", "urban mythology"];
 
   const scrollToHighlights = () => {
     gsap.to(window, {

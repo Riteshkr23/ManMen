@@ -8,9 +8,12 @@ export function useSplitHeadline(selector: string) {
     let splitInstance: { chars: Element[]; revert: () => void } | null = null;
 
     const animate = async () => {
+      const element = document.querySelector(selector);
+      if (!element) return;
+
       const splitTextModule = await import("gsap/SplitText");
       gsap.registerPlugin(splitTextModule.SplitText);
-      splitInstance = new splitTextModule.SplitText(selector, {
+      splitInstance = new splitTextModule.SplitText(element, {
         type: "chars,words",
       });
 

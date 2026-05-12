@@ -23,7 +23,7 @@ export function Navbar() {
         start: 40,
         onUpdate: (self) => {
           gsap.to(navRef.current, {
-            backgroundColor: self.scroll() > 40 ? "rgba(16,17,22,0.66)" : "rgba(16,17,22,0)",
+            backgroundColor: self.scroll() > 40 ? "var(--nav-bg)" : "transparent",
             backdropFilter: self.scroll() > 40 ? "blur(12px)" : "blur(0px)",
             borderColor: self.scroll() > 40 ? "var(--border)" : "transparent",
             duration: 0.35,
