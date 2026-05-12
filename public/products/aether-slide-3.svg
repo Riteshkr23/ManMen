@@ -1,0 +1,13 @@
+<svg width="1200" height="1200" viewBox="0 0 1200 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="1200" fill="#090A0D"/>
+  <rect x="100" y="100" width="1000" height="1000" rx="120" fill="url(#g)"/>
+  <circle cx="600" cy="520" r="290" fill="#A8DFFF" fill-opacity="0.32"/>
+  <circle cx="700" cy="640" r="220" fill="#609DD8" fill-opacity="0.28"/>
+  <text x="600" y="980" fill="#F4F4F6" text-anchor="middle" font-size="56" letter-spacing="14">MANMEN</text>
+  <defs>
+    <linearGradient id="g" x1="140" y1="120" x2="1060" y2="1080" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1B1D25"/>
+      <stop offset="1" stop-color="#0E0F14"/>
+    </linearGradient>
+  </defs>
+</svg>

@@ -1,0 +1,8 @@
+.glow-hover {
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+.glow-hover:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 28px rgba(184, 164, 111, 0.45);
+}
